@@ -180,8 +180,10 @@ header {
 .hero-container {
     padding-top: 188px;
     padding-bottom: 188px;
-    background-image: url("../images/people-office\ 1.jpg");
-    /* background-color; lightgray 0px -167.766px / 100% 139.922% no-repeat; */
+    background-image: linear-gradient(to bottom, 
+    rgba(45, 46, 65, 0.65), 
+    rgba(45, 46, 65, 0.65)),
+    url("../images/people-office\ 1.jpg");
 }
 
 
@@ -270,6 +272,12 @@ header {
 .benefits-container {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.benefits-icon {
+    padding: 24px 0;
+    text-align: center;
+    background-color: var(--cloud);
 }
 
 /* WHAT WE ARE DOING SECTION STYLING */
