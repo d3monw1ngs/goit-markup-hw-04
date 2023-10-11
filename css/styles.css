@@ -5,6 +5,7 @@
     --navy-blue: #2E2F42;
     --slate: #434455;
     --ocean: #404BBF;
+    --green: #31D0AA;
 }
 
 *,
@@ -30,7 +31,6 @@ body {
 img {
     display: block;
     max-width: 100%;
-    height: auto;
 }
 
 .section {
@@ -95,6 +95,15 @@ img {
     cursor: pointer;
     font-family: "Roboto", sans-serif;
 }
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
 
 /* NAVIGATION STYLING */
 .nav-logo {
@@ -204,7 +213,7 @@ header {
     color: white;
     background-color: var(--ocean);
     cursor: pointer;
-    box-shadow: 0 0 10px 5px rgba(2, 2, 2, 0.842);
+    box-shadow: 0 0 10px 5px rgba(46, 47, 66, .45);
 }
 
 .filter-container {
@@ -241,7 +250,7 @@ header {
 .project-card:hover,
 .project-card:active,
 .project-card:focus {
-    box-shadow: 10px 10px 8px 5px rgba(10, 10, 10, 0.3);
+    box-shadow: 10px 10px 8px 5px rgba(46, 47, 66, .45);
     cursor: pointer;
 }
 
@@ -277,7 +286,6 @@ header {
 .benefits-icon {
     padding: 24px 0;
     text-align: center;
-    background-color: var(--cloud);
 }
 
 /* WHAT WE ARE DOING SECTION STYLING */
@@ -309,10 +317,6 @@ header {
     margin-top: 32px;
 }
 
-.team-text {
-    margin-bottom: 32px;
-}
-
 .card {
     max-width: 264px;
     margin: 0 auto;
@@ -330,6 +334,23 @@ header {
     padding-bottom: 120px;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.team-socials {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.team-icon {
+    background-color: var(--iris);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
 }
 
 /* CUSTOMERS STYLING */
