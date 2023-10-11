@@ -96,14 +96,6 @@ img {
     font-family: "Roboto", sans-serif;
 }
 
-.icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-  }
 
 /* NAVIGATION STYLING */
 .nav-logo {
@@ -321,7 +313,7 @@ header {
     max-width: 264px;
     margin: 0 auto;
     border-radius: 0px 0px 4px 4px;
-    background: var(--WHITE, #FFF);
+    /* background: var(--WHITE, #FFF); */
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
                 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
                 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -353,6 +345,7 @@ header {
     margin-bottom: 32px;
 }
 
+
 /* CUSTOMERS STYLING */
 .customers h2{
     color: var(--NAVY-BLUE, #2E2F42);
@@ -362,11 +355,23 @@ header {
     line-height: 40px; /* 111.111% */
     letter-spacing: 0.72px;
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 72px;
 }
 
 .customers {
     background: #FFF;
+}
+
+.customer-icon {
+    width: 168px;
+    height: 88px;
+    border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+}
+
+.customer-list {
+    padding-bottom: 120px;
+
 }
 
 /* FOOTER STYLING */
