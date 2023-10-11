@@ -407,12 +407,12 @@ header {
     color: var(--cloud);
     line-height: 1.5; /* 150% */
     letter-spacing: 0.32px;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
     padding-left: 80px;
 }
 
 .footer {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
@@ -422,14 +422,9 @@ header {
     flex-direction: column;
 }
 
-.footer-title {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
 .footer-socials {
-    display: flex;
+    display: inline-flex;
+    flex-direction: column;
     margin: 0 auto;
     padding: 0;
 }
@@ -445,5 +440,17 @@ header {
 
 .footer-list {
     display: flex;
+    gap: 16px;
+}
 
+.footer-icon {
+    background-color: var(--iris);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+    fill: white;
 }
