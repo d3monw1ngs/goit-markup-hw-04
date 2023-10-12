@@ -184,10 +184,11 @@ header {
 .hero-container {
     padding-top: 188px;
     padding-bottom: 188px;
-    background-image: linear-gradient(to bottom, 
-    rgba(45, 46, 65, 0.65), 
-    rgba(45, 46, 65, 0.65)),
+    background: linear-gradient(to bottom, 
+    rgba(46, 47, 66, 0.7), 
+    rgba(46, 47, 66, 0.7)),
     url("../images/people-office\ 1.jpg");
+    background-size: cover;
 }
 
 
@@ -378,8 +379,9 @@ header {
 
 .customer-icon {    
     display: flex;
-    justify-content: space-between;
+    margin: 0 auto;
     padding-bottom: 120px;
+    padding-left: 60px;
     gap: 12px;
 }
 
@@ -391,14 +393,14 @@ header {
 .customer-items:active {
     fill: var(--ocean);
     border: 1px solid var(--ocean);
-    width: 168px;
-    height: 88px;
+    width: 158px;
+    height: 78px;
     border-radius: 4px;
 }
 
 .customer-items {
-    width: 168px;
-    height: 88px;
+    width: 158px;
+    height: 78px;
     border-radius: 4px;
     border: 1px solid var(--LIGHT-SLATE, #8E8F99);
 }
