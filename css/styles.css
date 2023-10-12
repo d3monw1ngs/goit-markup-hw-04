@@ -175,7 +175,8 @@ header {
 }
 
 .hero-button:focus,
-.hero-button:active {
+.hero-button:active,
+.hero-button:hover {
     background: var(--ocean);
     box-shadow: 0 0 10px 5px rgba(46, 47, 66, .45)
 }
@@ -203,7 +204,8 @@ header {
 }
 
 .filter-button:hover,
-.filter-button:focus {
+.filter-button:focus,
+.filter-buttons:active {
     color: white;
     background-color: var(--ocean);
     cursor: pointer;
@@ -383,8 +385,10 @@ header {
 
 .customer-logo:hover,
 .customer-logo:focus,
+.customer-logo:active,
 .customer-items:hover,
-.customer-items:focus {
+.customer-items:focus,
+.customer-items:active {
     fill: var(--ocean);
     border: 1px solid var(--ocean);
     width: 168px;
